@@ -1,0 +1,75 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    
+}
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    
+    
+}
+#logo img {
+    width: 20%;
+    margin-left: 10%;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid transparent;
+    transition: 0.5s;
+    padding: 8px 12px;
+    text-align: center;
+    
+}
+nav ul li a:hover {
+border: 1px solid rgb(255, 0, 0);
+}
+header #Imagen {
+    width: 100%;
+    position: relative;
+}
+Header #Imagen img {
+    width: 100%;
+}
+header #Imagen h1 {
+ position: absolute;
+ top: 45%;
+ left: 0%;
+ right: 0;
+ text-align: center;
+ font-size: 70px;
+ color: white;
+ background-color: rgba(0, 0, 0, 0.699);
+margin-top: -20%;
+}
+main #welcome .row {
+    
+    width: 100%;
+    max-width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+#contText {
+    width: 100%;
+    max-width: 40%;
+    padding: 5%;
+}
+
+#contImg {
+    width: 100%;
+    max-width: 40%;
+    padding: 5%;
+}
+main section div h2 {
+    font-size: 40px;
+    
+}
